@@ -1,0 +1,20 @@
+.table {
+  width: 80%;
+  border: 1px solid dimgrey;
+  background-color: khaki;
+
+}
+.table-row {
+  border: 1px solid dimgrey;
+
+}
+.table-data-item {
+  border-right: 1px solid dimgrey;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-add-modal {
+  height: 30px;
+}

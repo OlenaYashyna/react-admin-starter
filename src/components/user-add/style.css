@@ -1,0 +1,11 @@
+.user-add {
+  display: none;
+}
+.user-add-visible {
+  display: block;
+  border: 1px solid dimgrey;
+  background-color: palegreen;
+  width: 40%;
+  height: 60%;
+  margin: auto;
+}
