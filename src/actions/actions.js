@@ -19,3 +19,8 @@ export const addUser = user => ({
   payload: { user },
 });
 
+export const addUserSuccs = users => ({
+  type: 'USER_ADD_SUCCESS',
+  payload: { users },
+});
+

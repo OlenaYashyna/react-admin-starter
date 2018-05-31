@@ -1,6 +1,7 @@
 const initialState = {
   users: [],
   pending: false,
+  user: {},
 };
 
 export default function userReducer(state = initialState, action) {
@@ -9,6 +10,7 @@ export default function userReducer(state = initialState, action) {
     case 'USERS_FETCH_START':
       return {...state, pending: true};
     case 'USERS_FETCH_SUCCESS':
+      console.log('jhkhkj')
       return {
         ...state,
         users: payload.users,
